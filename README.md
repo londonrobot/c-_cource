@@ -1,3 +1,3 @@
-# c-sharp_cource
+# c-sharp_course
 
 something
