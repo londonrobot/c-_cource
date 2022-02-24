@@ -17,13 +17,19 @@ namespace Part_3
             int number = r.Next(limit + 1);
             Console.WriteLine(number);
 
-            try
-            {
-                Console.WriteLine("Теперь попробуйте угадать загаданное программой число: ");
+            Console.WriteLine("Теперь попробуйте угадать загаданное программой число: ");
                 
-                while (true)
+            while (true)
+            {
+                string attemptString = Console.ReadLine();
+
+                if (attemptString == "") 
                 {
-                    int attempt = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine($"Загадано было число: {number}");
+                    break;
+                } else
+                {
+                    int attempt = Convert.ToInt32(attemptString);
 
                     if (attempt == number)
                     {
@@ -34,10 +40,6 @@ namespace Part_3
                     else Console.WriteLine("Введенное число меньше загаданного. Попробуйте еще раз: ");
                 }
 
-            }
-            catch (SystemException)
-            {
-                Console.WriteLine($"Загадано было число: {number}");
             }
 
             Console.ReadKey();

@@ -1,0 +1,8 @@
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\bin\Debug\Part 3.exe.config
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\bin\Debug\Part 3.exe
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\bin\Debug\Part 3.pdb
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\obj\Debug\Part 3.csproj.AssemblyReference.cache
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\obj\Debug\Part 3.csproj.SuggestedBindingRedirects.cache
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\obj\Debug\Part 3.csproj.CoreCompileInputs.cache
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\obj\Debug\Part 3.exe
+C:\data\skillbox fullstack\c#\04\04 Arrays\Part 3\obj\Debug\Part 3.pdb
