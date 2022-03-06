@@ -29,7 +29,10 @@ namespace _06_Files
                     Console.WriteLine();
                 }
             }
-            else Console.WriteLine("Каталог сотрудников еще не создан.\n");
+            else 
+            { 
+                Console.WriteLine("Каталог сотрудников еще не создан.\n"); 
+            }
         }
 
         static int TakeStartID(string filename, char separator)
@@ -51,7 +54,10 @@ namespace _06_Files
                     Console.WriteLine("id" + id);
                 }
             }
-            else id = 0;
+            else
+            {
+                id = 0;
+            }
             return id;
         }
 
@@ -115,7 +121,6 @@ namespace _06_Files
                 if (actionType == "3") break;
 
             }
-            
         }
     }
 }
