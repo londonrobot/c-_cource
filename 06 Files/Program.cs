@@ -119,7 +119,6 @@ namespace _06_Files
                 }
 
                 if (actionType == "3") break;
-
             }
         }
     }
